@@ -85,6 +85,10 @@ declare module 'react-native-view-shot' {
          * style prop as ViewStyle
          */
         style?: ViewStyle;
+        /**
+         * children prop as React.ReactNode
+         */
+        children: React.ReactNode;
     }
 
     export default class ViewShot extends Component<ViewShotProperties> {
